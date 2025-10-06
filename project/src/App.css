@@ -3,6 +3,10 @@
   --color-secundario: #ba9c55;
   --tamano-texto: 16px;
 }
+html {
+  overflow-y: scroll;
+}
+
 * {
   font-family: quicksand;
   margin: 0;
