@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import Imagen from "../assets/imagenHero1.svg";
+import AboutUsHome from "../components/AboutUsHome";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         }
         image={Imagen}
       />
+      <AboutUsHome />
     </>
   );
 };
