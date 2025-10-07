@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Button from "./Button";
 const Hero = ({ title, subtitle, image }) => {
   return (
     <section className="container-fluid bg-light section-hero">
@@ -9,15 +9,13 @@ const Hero = ({ title, subtitle, image }) => {
             <h1 className="display-5 fw-bold mb-3">{title}</h1>
             <p className="lead text-muted mb-4">{subtitle}</p>
             <div className="d-flex flex-column flex-md-row gap-3 justify-content-center justify-content-md-start">
-              <Link to="/contacto" className="btn btn-primary btn-lg rounded-0">
-                Contáctanos
-              </Link>
-              <Link
-                to="/servicios"
-                className="btn btn-outline-primary btn-lg rounded-0"
-              >
-                Conoce nuestros servicios
-              </Link>
+              {/* componentes boton */}
+              <Button to={"/contacto"} text={"Contáctanos"} />
+              <Button
+                to={"/servicios"}
+                text={"Conoce nuestros servicios"}
+                variant="outline-primary"
+              />
             </div>
           </div>
 
