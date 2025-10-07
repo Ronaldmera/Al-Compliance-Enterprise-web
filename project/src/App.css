@@ -40,7 +40,7 @@ html {
 
 /* inicio estilos hero */
 .section-hero {
-  padding: 200px 0px 200px 0;
+  padding: clamp(2rem, 10vw, 6rem) 0;
 }
 .btn-primary {
   background-color: var(--color-primario) !important;
