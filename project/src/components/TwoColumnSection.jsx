@@ -7,7 +7,7 @@ const TwoColumnSection = ({
   reverse = false, // cambiar el orden de columnas
   buttons = [], // array de botones [{ text, to, variant }]
   bg = "light", // fondo opcional
-  my = 4, //margin y
+  my = 0, //margin y
 }) => {
   return (
     <section className={`container-fluid bg-${bg} py-5 my-${my}`}>

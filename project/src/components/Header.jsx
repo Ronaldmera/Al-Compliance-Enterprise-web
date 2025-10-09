@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg  border-bottom">
+    <nav className="navbar navbar-expand-lg">
       <div className="container">
         <a className="navbar-brand d-flex align-items-center" href="/">
           <img

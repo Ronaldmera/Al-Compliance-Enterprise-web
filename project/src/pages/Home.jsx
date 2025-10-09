@@ -1,4 +1,4 @@
-import Imagen from "../assets/imagenHero1.svg";
+import Imagen from "../assets/hero.svg";
 import ImagenAbogados from "../assets/abogados.jpg";
 import TwoColumnSection from "../components/TwoColumnSection";
 
