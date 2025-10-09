@@ -1,18 +1,37 @@
-import Hero from "../components/Hero";
 import Imagen from "../assets/imagenHero1.svg";
-import AboutUsHome from "../components/AboutUsHome";
+import ImagenAbogados from "../assets/abogados.jpg";
+import TwoColumnSection from "../components/TwoColumnSection";
 
 const Home = () => {
   return (
     <>
-      <Hero
-        title={"Tu tranquilidad legal, nuestra prioridad"}
-        subtitle={
-          "En AL COMPLIANCE ENTERPRISE S.A.S brindamos asesoría y acompañamiento jurídico especializado para empresas y personas. Nos enfocamos en ofrecer soluciones efectivas, éticas y adaptadas a tus necesidades legales."
-        }
+      <TwoColumnSection
+        title="Tu tranquilidad legal, nuestra prioridad"
+        text="En AL COMPLIANCE ENTERPRISE S.A.S brindamos asesoría y acompañamiento jurídico especializado para empresas y personas. Nos enfocamos en ofrecer soluciones efectivas, éticas y adaptadas a tus necesidades legales."
         image={Imagen}
+        reverse={false} // si lo pones en true, la imagen va a la izquierda
+        buttons={[
+          { text: "Contáctanos", to: "/contacto" },
+          {
+            text: "Nuestros servicios",
+            to: "/servicios",
+            variant: "outline-primary",
+          },
+        ]}
       />
-      <AboutUsHome />
+      <TwoColumnSection
+        title="Sobre Nosotros"
+        text="Somos una firma legal especializada en derecho empresarial y
+                cumplimiento normativo. Ayudamos a compañías a proteger sus
+                intereses y actuar conforme a la ley."
+        image={ImagenAbogados}
+        reverse={true}
+        buttons={[
+          { text: "Conoce más", to: "/nosotros", variant: "secundary" },
+        ]}
+        bg="white"
+        my={5}
+      />
     </>
   );
 };

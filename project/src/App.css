@@ -46,10 +46,18 @@ html {
   background-color: var(--color-primario) !important;
   border-color: var(--color-secundario) !important;
 }
+.btn-secundary {
+  background-color: var(--color-secundario) !important;
+  color: white !important;
+}
+.btn-secundary:hover {
+  border-color: var(--color-primario) !important;
+}
 .btn-outline-primary {
   color: var(--color-primario) !important;
   border-color: var(--color-primario) !important;
 }
+
 .btn-outline-primary:hover {
   color: #ffffff !important;
   background-color: var(--color-secundario) !important;
