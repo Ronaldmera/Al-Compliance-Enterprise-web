@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const CustomButton = ({ to, text, variant = "primary" }) => {
+const Button = ({ to, text, variant = "primary" }) => {
   return (
     <>
       <Link to={to} className={`btn btn-${variant} btn-lg rounded-0`}>
@@ -10,4 +10,4 @@ const CustomButton = ({ to, text, variant = "primary" }) => {
   );
 };
 
-export default CustomButton;
+export default Button;
