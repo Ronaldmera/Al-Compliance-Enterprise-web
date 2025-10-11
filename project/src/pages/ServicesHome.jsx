@@ -11,10 +11,15 @@ const ServicesHome = () => {
   return (
     <section className="container-fluid bg-light py-5">
       <div className="container d-flex flex-column">
+        <p className="text-muted text-center fw-ligh fs-4 fst-italic mb-5 px-lg-5">
+          <i className="bi bi-briefcase-fill fs-2 mx-2 "></i>
+          Entendemos tus necesidades legales y trabajamos contigo para ofrecerte
+          la mejor estrategia jurídica en cada situación.
+        </p>
         <h2 className="fw-bold display-6 mb-4 text-center">
           Algunos de Nuestros Servicios
         </h2>
-        <p className="border border-secondary mb-sm-3 mb-md-3 mb-lg-5"></p>
+        <p className="border mb-sm-3 mb-md-3 mb-lg-5"></p>
         {/* creando cards dinamicamente */}
         <div className="row g-4 justify-content-center">
           {services.map((service, index) => (
