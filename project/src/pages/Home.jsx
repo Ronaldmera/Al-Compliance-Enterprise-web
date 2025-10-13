@@ -1,5 +1,5 @@
 import Imagen from "../assets/hero.svg";
-import ImagenAbogados from "../assets/abogados.jpg";
+import ImagenAbogados from "../assets/abogados.webp";
 import TwoColumnSection from "../components/TwoColumnSection";
 import ServicesHome from "../components/ServicesHome";
 

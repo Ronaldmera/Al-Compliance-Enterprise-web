@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.webp";
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg">
