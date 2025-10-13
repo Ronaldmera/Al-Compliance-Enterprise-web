@@ -69,3 +69,6 @@ inicio estilos cards servicios */
   height: 15rem;
   object-fit: cover;
 }
+.bg-top-Bar {
+  background-color: var(--color-secundario);
+}

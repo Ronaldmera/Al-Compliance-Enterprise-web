@@ -1,7 +1,7 @@
 import Imagen from "../assets/hero.svg";
 import ImagenAbogados from "../assets/abogados.jpg";
 import TwoColumnSection from "../components/TwoColumnSection";
-import ServicesHome from "./ServicesHome";
+import ServicesHome from "../components/ServicesHome";
 
 const Home = () => {
   return (

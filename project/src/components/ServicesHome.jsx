@@ -1,7 +1,7 @@
-import Card from "../components/Card";
+import Card from "./Card";
 import Imagen from "../assets/abogados.jpg";
 import img1 from "../assets/imgAsesoriaJuridica.jpg";
-import Button from "../components/Button";
+import Button from "./Button";
 const services = [
   { src: img1, text: "Asesoría jurídica especializada." },
   { src: Imagen, text: "Representación legal en litigios." },
