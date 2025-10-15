@@ -2,6 +2,7 @@ import Imagen from "../assets/hero.svg";
 import ImagenAbogados from "../assets/abogados.webp";
 import TwoColumnSection from "../components/TwoColumnSection";
 import ServicesHome from "../components/ServicesHome";
+import TestimonyHome from "../components/TestimonyHome";
 
 const Home = () => {
   return (
@@ -34,6 +35,7 @@ const Home = () => {
         my={5}
       />
       <ServicesHome />
+      <TestimonyHome />
     </>
   );
 };
