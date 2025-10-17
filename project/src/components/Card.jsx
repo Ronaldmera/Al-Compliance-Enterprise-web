@@ -6,7 +6,7 @@ const Card = ({ src, text = "Descripción breve del servicio." }) => {
         <div className="card-body text-center">
           <p className="card-text">
             <span>
-              <i class="bi bi-check-square-fill text-secondary mx-1"></i>
+              <i className="bi bi-check-square-fill text-secondary mx-1"></i>
             </span>
             {text}
           </p>

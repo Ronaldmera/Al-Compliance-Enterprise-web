@@ -11,7 +11,7 @@ const services = [
 
 const ServicesHome = () => {
   return (
-    <section className="container-fluid bg-light py-5">
+    <section className="container-fluid bg-light py-5" data-aos="fade-up">
       <div className="container d-flex flex-column">
         <p className="text-muted text-center fw-ligh fs-4 fst-italic mb-5 px-lg-5">
           <i className="bi bi-briefcase-fill fs-2 mx-2"></i>

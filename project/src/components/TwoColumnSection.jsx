@@ -10,7 +10,11 @@ const TwoColumnSection = ({
   my = 0, //margin y
 }) => {
   return (
-    <section className={`container-fluid bg-${bg} py-5 my-${my}`}>
+    <section
+      className={`container-fluid bg-${bg} py-5 my-${my}`}
+      data-aos="fade"
+      data-aos-duration="1500"
+    >
       <div className="container">
         <div
           className={`row align-items-center justify-content-center ${
