@@ -7,6 +7,7 @@ import TopBar from "./components/TopBar";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
       <Header />
       <TopBar />
       <AppRoutes />
+      <Footer />
     </>
   );
 }
