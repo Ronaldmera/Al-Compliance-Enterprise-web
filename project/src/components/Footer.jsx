@@ -52,8 +52,8 @@ const Footer = () => {
           </div>
 
           <div className="text-center ">
-            © 2025 AL COMPLIANCE ENTERPRISE S.A.S. | Todos los derechos
-            reservados.
+            © {new Date().getFullYear()} AL COMPLIANCE ENTERPRISE S.A.S. | Todos
+            los derechos reservados.
           </div>
         </footer>
       </section>
