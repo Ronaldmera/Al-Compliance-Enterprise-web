@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import logo from "../assets/logo.webp";
 
 const Footer = () => {
   return (
@@ -7,10 +8,11 @@ const Footer = () => {
         <footer className=" text-center">
           <div className="container p-4">
             <div className="row">
-              <div className="col-lg-6 col-md-12 mb-4 mb-md-0  d-flex flex-column justify-content-center align-items-center">
+              <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
                 <h5 className="text-uppercase">
                   AL COMPLIANCE ENTERPRISE S.A.S
                 </h5>
+                <img src={logo} alt="" className=" h-50 " />
 
                 <p>
                   Porque cada caso merece ser escuchado y defendido con respeto.
@@ -49,11 +51,10 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-          </div>
-
-          <div className="text-center ">
-            © {new Date().getFullYear()} AL COMPLIANCE ENTERPRISE S.A.S. | Todos
-            los derechos reservados.
+            <div className="text-center ">
+              © {new Date().getFullYear()} AL COMPLIANCE ENTERPRISE S.A.S. |
+              Todos los derechos reservados.
+            </div>
           </div>
         </footer>
       </section>
