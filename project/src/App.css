@@ -13,6 +13,9 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+.customize-btn {
+  border-color: rgba(226, 235, 232, 0.443);
+}
 /*Inicio Estilos Header */
 .navbar {
   background-color: var(--color-primario);
@@ -44,6 +47,9 @@ html {
 }
 .bg-primary {
   background-color: var(--color-primario) !important;
+}
+.text-secondary {
+  color: var(--color-secundario);
 }
 .btn-primary {
   background-color: var(--color-primario) !important;

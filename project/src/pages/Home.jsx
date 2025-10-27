@@ -3,6 +3,7 @@ import ImagenAbogados from "../assets/abogados.webp";
 import TwoColumnSection from "../components/TwoColumnSection";
 import ServicesHome from "../components/ServicesHome";
 import TestimonyHome from "../components/TestimonyHome";
+import SectionFrequentQuestions from "../components/SectionFrequentQuestions";
 
 const Home = () => {
   return (
@@ -36,6 +37,7 @@ const Home = () => {
       />
       <ServicesHome />
       <TestimonyHome />
+      <SectionFrequentQuestions />
     </>
   );
 };
