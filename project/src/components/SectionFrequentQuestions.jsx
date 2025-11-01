@@ -24,7 +24,7 @@ const SectionFrequentQuestions = () => {
   };
 
   return (
-    <section className="container-fluid py-5" data-aos="fade-up">
+    <section className="container-fluid py-5" data-aos="fade">
       <div className="container d-flex flex-column">
         <h2 className="fw-bold display-6 mb-4 text-center">
           Preguntas Frecuentes
@@ -35,7 +35,8 @@ const SectionFrequentQuestions = () => {
           {faqs.map((faq, index) => (
             <ul
               key={index}
-              className=" d-flex flex-column align-items-center w-75 mb-0"
+              className=" d-flex flex-column align-items-center w-100 mb-0"
+              data-aos="fade-left"
             >
               <button
                 className="customize-btn p-3 bg-light rounded-1 w-100 fw-semibold "

@@ -4,6 +4,8 @@ import TwoColumnSection from "../components/TwoColumnSection";
 import ServicesHome from "../components/ServicesHome";
 import TestimonyHome from "../components/TestimonyHome";
 import SectionFrequentQuestions from "../components/SectionFrequentQuestions";
+import Hero from "../components/Hero";
+import imgHome from "../assets/hero.jpg";
 
 const Home = () => {
   return (
@@ -35,6 +37,16 @@ const Home = () => {
         bg="white"
         my={5}
       />
+      <Hero
+        image={imgHome}
+        iconClass="bi bi-award"
+        containerAnimation="fade"
+        textAnimation="fade-left"
+        text={
+          "Más de 10 años brindando asesoría jurídica con responsabilidad y confianza."
+        }
+      />
+
       <ServicesHome />
       <TestimonyHome />
       <SectionFrequentQuestions />
