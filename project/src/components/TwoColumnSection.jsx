@@ -8,6 +8,7 @@ const TwoColumnSection = ({
   buttons = [], // array de botones [{ text, to, variant }]
   bg = "light", // fondo opcional
   my = 0, //margin y
+  titleCenter = false,
 }) => {
   return (
     <section
@@ -23,7 +24,13 @@ const TwoColumnSection = ({
         >
           {/* Columna de texto */}
           <div className="col-12 col-lg-6 text-center text-lg-start px-4">
-            <h2 className="fw-bold display-5 mb-3">{title}</h2>
+            <h2
+              className={`fw-bold display-5 mb-3 ${
+                titleCenter ? "text-center" : ""
+              }`}
+            >
+              {title}
+            </h2>
             <p className="text-muted mb-4">{text}</p>
 
             {/* Botones dinámicos */}

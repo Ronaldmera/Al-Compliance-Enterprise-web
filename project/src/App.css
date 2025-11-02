@@ -20,12 +20,12 @@ html {
 .navbar {
   background-color: var(--color-primario);
 }
+
 .navbar-toggler {
   background-color: #ffffff !important;
 }
 .nav-link.active {
-  background-color: rgb(94, 104, 104);
-  border-radius: 5px;
+  color: var(--color-secundario) !important;
   transition: ease-in 0.2s;
 }
 .logo {
@@ -90,7 +90,7 @@ inicio estilos cards servicios */
   width: 100%;
   min-height: 35rem;
   overflow: hidden;
-  clip-path: polygon(0 0%, 50% 2%, 100% 0%, 100% 100%, 0 100%);
+  /* clip-path: polygon(0 0%, 50% 2%, 100% 0%, 100% 100%, 0 100%); */
 }
 
 /* La imagen ocupa todo el contenedor */
