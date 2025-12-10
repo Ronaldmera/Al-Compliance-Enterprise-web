@@ -18,9 +18,7 @@ const ServicesHome = () => {
           Entendemos tus necesidades legales y trabajamos contigo para ofrecerte
           la mejor estrategia jurídica en cada situación.
         </p>
-        <h2 className="fw-bold display-6 mb-4 text-center">
-          Algunos de Nuestros Servicios
-        </h2>
+        <h2 className="fw-bold display-6 mb-4 text-center">Servicios</h2>
         <p className="border mb-sm-3 mb-md-3 mb-lg-5"></p>
         {/* creando cards dinamicamente */}
         <div className="row g-4 justify-content-center">

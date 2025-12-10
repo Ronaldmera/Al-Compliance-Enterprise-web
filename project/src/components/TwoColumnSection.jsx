@@ -13,8 +13,8 @@ const TwoColumnSection = ({
   return (
     <section
       className={`container-fluid bg-${bg} py-5 my-${my}`}
-      data-aos="fade"
-      data-aos-duration="1500"
+      // data-aos="fade"
+      // data-aos-duration="1500"
     >
       <div className="container">
         <div
@@ -25,7 +25,7 @@ const TwoColumnSection = ({
           {/* Columna de texto */}
           <div className="col-12 col-lg-6 text-center text-lg-start px-4">
             <h2
-              className={`fw-bold display-5 mb-3 ${
+              className={`fw-bold  mb-3 text-uppercase fs-3 ${
                 titleCenter ? "text-center" : ""
               }`}
             >

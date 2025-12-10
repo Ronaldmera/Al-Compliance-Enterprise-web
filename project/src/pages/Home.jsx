@@ -1,4 +1,4 @@
-import Imagen from "../assets/hero.svg";
+import Imagen from "../assets/img.png";
 import ImagenAbogados from "../assets/abogados.webp";
 import TwoColumnSection from "../components/TwoColumnSection";
 import ServicesHome from "../components/ServicesHome";
@@ -11,7 +11,12 @@ const Home = () => {
   return (
     <>
       <TwoColumnSection
-        title="Tu tranquilidad legal, nuestra prioridad"
+        title={
+          <>
+            Tu <span style={{ color: "#C8A046" }}>tranquilidad legal</span>,
+            nuestra prioridad
+          </>
+        }
         text="En AL COMPLIANCE ENTERPRISE S.A.S brindamos asesoría y acompañamiento jurídico especializado para empresas y personas. Nos enfocamos en ofrecer soluciones efectivas, éticas y adaptadas a tus necesidades legales."
         image={Imagen}
         reverse={false} // si lo pones en true, la imagen va a la izquierda
@@ -47,7 +52,7 @@ const Home = () => {
         }
       />
 
-      <ServicesHome />
+      {/* <ServicesHome /> */}
       <TestimonyHome />
       <SectionFrequentQuestions />
     </>
