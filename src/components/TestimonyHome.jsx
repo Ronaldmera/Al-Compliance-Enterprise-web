@@ -1,4 +1,5 @@
-import CardText from "./cardText";
+import CardText from "./CardText";
+
 const testimonials = [
   {
     text: "El abogado Mera me ayudó con un proceso laboral complicado. Siempre fue claro, atento y logró un excelente resultado.",
