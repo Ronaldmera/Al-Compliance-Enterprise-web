@@ -11,8 +11,6 @@ const AboutUs = () => {
       <Hero
         image={imgHero}
         iconClass="bi bi-person-arms-up"
-        containerAnimation="fade"
-        textAnimation="fade-left"
         text={"Conócenos"}
       />
       <TwoColumnSection
@@ -21,6 +19,7 @@ const AboutUs = () => {
         image={imgClock}
         reverse={false}
         titleCenter={true}
+        showImgPhone={true}
       />
       <TwoColumnSection
         title="Misión"
@@ -29,6 +28,7 @@ const AboutUs = () => {
         reverse={true}
         bg="white"
         titleCenter={true}
+        showImgPhone={true}
       />
       <TwoColumnSection
         title="Visión"
@@ -36,6 +36,7 @@ const AboutUs = () => {
         image={imgVision}
         reverse={false}
         titleCenter={true}
+        showImgPhone={true}
       />
     </>
   );

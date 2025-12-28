@@ -7,13 +7,10 @@ const Hero = ({
   textAnimation,
 }) => {
   return (
-    <div
-      className="container-fluid px-0 hero-container"
-      data-aos={containerAnimation}
-    >
+    <div className="container-fluid px-0 hero-container">
       <img src={image} alt="hero" className="images-hero" />
       <div className="overlay"></div>
-      <div className="hero-content" data-aos={textAnimation}>
+      <div className="hero-content">
         {text && (
           <h1 className="hero-text text-light">
             <i className={`${iconClass} ${iconColor}  `}></i>

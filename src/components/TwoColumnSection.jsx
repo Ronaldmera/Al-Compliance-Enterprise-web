@@ -9,13 +9,10 @@ const TwoColumnSection = ({
   bg = "light", // fondo opcional
   my = 0, //margin y
   titleCenter = false,
+  showImgPhone = true,
 }) => {
   return (
-    <section
-      className={`container-fluid bg-${bg} py-5 my-${my}`}
-      // data-aos="fade"
-      // data-aos-duration="1500"
-    >
+    <section className={`container-fluid bg-${bg} py-5 my-${my} `}>
       <div className="container">
         <div
           className={`row align-items-center justify-content-center ${
@@ -49,7 +46,11 @@ const TwoColumnSection = ({
           </div>
 
           {/* Columna de imagen */}
-          <div className="col-12 col-lg-6 text-center mt-4 mt-lg-0">
+          <div
+            className={`col-12 col-lg-6 text-center mt-4 mt-lg-0 ${
+              showImgPhone ? "" : "d-none"
+            } d-md-block`}
+          >
             <img src={image} alt={title} className="img-fluid rounded-3" />
           </div>
         </div>

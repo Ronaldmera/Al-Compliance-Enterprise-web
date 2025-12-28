@@ -6,9 +6,6 @@
 html {
   overflow-y: scroll;
 }
-/* .color-random {
-  background-color: rgb(5, 10, 14) !important;
-} */
 
 * {
   font-family: quicksand;
@@ -16,6 +13,7 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+
 .customize-btn {
   border-color: rgba(226, 235, 232, 0.443);
 }
@@ -130,7 +128,7 @@ inicio estilos cards servicios */
   overflow: hidden;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
   color: #fff;
   z-index: 2;
   font-size: 2rem;

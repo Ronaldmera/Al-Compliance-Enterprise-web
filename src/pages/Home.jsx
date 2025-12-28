@@ -1,7 +1,6 @@
 import Imagen from "../assets/img.png";
 import ImagenAbogados from "../assets/abogados.webp";
 import TwoColumnSection from "../components/TwoColumnSection";
-import ServicesHome from "../components/ServicesHome";
 import TestimonyHome from "../components/TestimonyHome";
 import SectionFrequentQuestions from "../components/SectionFrequentQuestions";
 import Hero from "../components/Hero";
@@ -28,6 +27,7 @@ const Home = () => {
             variant: "outline-primary",
           },
         ]}
+        showImgPhone={true}
       />
       <TwoColumnSection
         title="Sobre Nosotros"
@@ -41,12 +41,11 @@ const Home = () => {
         ]}
         bg="white"
         my={5}
+        showImgPhone={false}
       />
       <Hero
         image={imgHome}
         iconClass="bi bi-award"
-        containerAnimation="fade"
-        textAnimation="fade-left"
         text={
           "Más de 10 años brindando asesoría jurídica con responsabilidad y confianza."
         }
