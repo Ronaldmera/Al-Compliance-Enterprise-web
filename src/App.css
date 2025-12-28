@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Swanky+and+Moo+Moo&family=Tagesschrift&display=swap");
 :root {
   --color-primario: rgb(30, 42, 48);
   --color-secundario: #ba9c55;
@@ -8,10 +9,27 @@ html {
 }
 
 * {
-  font-family: quicksand;
+  /* font-family: lato, quicksand; */
+  font-family: Montserrat;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.border_Decoration {
+  width: 100px;
+  height: 8px;
+  background-color: var(--color-secundario);
+  margin-bottom: 20px;
+}
+.starsCards {
+  color: #ba9c55;
+}
+.img_icons {
+  width: 100%;
+  max-width: 230px;
+  height: auto;
+  display: block;
+  object-fit: cover;
 }
 
 .customize-btn {

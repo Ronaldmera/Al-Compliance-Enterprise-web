@@ -1,3 +1,4 @@
+import Border from "./Border";
 import CardText from "./CardText";
 
 const testimonials = [
@@ -18,17 +19,21 @@ const testimonials = [
   },
 ];
 
-const TestimonyHome = () => {
+const TestimonyHome = ({ img }) => {
   return (
-    <section className="container-fluid py-5 bg-light">
-      <div className="container">
-        <h2 className="fw-bold display-6 mb-4 text-center">
-          Lo que dicen nuestros clientes
+    <section className="container-fluid py-3 bg-light">
+      <div className="container bg-white p-4 rounded-5">
+        <Border></Border>
+        <h2 className="fw-bold display-6 mb-4 text-center text-dark">
+          Nuestra mejor referencia: nuestros clientes
         </h2>
-        <p className="text-center text-muted mb-5">
+        <p className="text-center text-muted mb-5 fs-5">
           La satisfacción de nuestros clientes es nuestra mejor carta de
           presentación.
         </p>
+        <div className="icon_container d-flex justify-content-center mb-5">
+          <img src={img} alt="" className="  img_icons" />
+        </div>
 
         {/* fila de testimonios */}
         <div className="row justify-content-center">
@@ -38,6 +43,7 @@ const TestimonyHome = () => {
               text={testimony.text}
               name={testimony.name}
               typeProcess={testimony.typeProcess}
+              iconClass={"bi bi-person-circle"}
             />
           ))}
         </div>

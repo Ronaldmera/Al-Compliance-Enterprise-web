@@ -1,3 +1,4 @@
+import Border from "./Border";
 import Button from "./Button";
 
 const TwoColumnSection = ({
@@ -26,6 +27,7 @@ const TwoColumnSection = ({
                 titleCenter ? "text-center" : ""
               }`}
             >
+              <Border></Border>
               {title}
             </h2>
             <p className="text-muted mb-4">{text}</p>

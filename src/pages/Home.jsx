@@ -5,6 +5,7 @@ import TestimonyHome from "../components/TestimonyHome";
 import SectionFrequentQuestions from "../components/SectionFrequentQuestions";
 import Hero from "../components/Hero";
 import imgHome from "../assets/hero.jpg";
+import imgTestimony from "../assets/testimony.svg";
 
 const Home = () => {
   return (
@@ -52,7 +53,7 @@ const Home = () => {
       />
 
       {/* <ServicesHome /> */}
-      <TestimonyHome />
+      <TestimonyHome img={imgTestimony} />
       <SectionFrequentQuestions />
     </>
   );

@@ -3,7 +3,7 @@ import logo from "../assets/logo.webp";
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg">
-      <div className="container">
+      <div className="container px-1">
         <a className="navbar-brand d-flex align-items-center" href="/">
           <img
             src={logo}
